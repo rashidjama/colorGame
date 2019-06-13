@@ -1,0 +1,56 @@
+body {
+  background: #333;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.2rem;
+  background: rgb(70, 100, 255);
+  padding: 2rem;
+  margin:0;
+}
+.app__second-header {
+  background: rgb(255, 255, 255);
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+}
+.app__body {
+ max-width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.squares {
+ width: 30%;
+ padding-top: 30%;
+ background: yellow;
+ float: left;
+ margin: 1.66%;
+ border-radius: 50%;
+ transition: background 0.6s;
+}
+#new__colors, #easy__mode, #hard__mode {
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+  font-weight: bold;
+  outline: 0;
+  letter-spacing: 1px;
+}
+#message {
+  margin-top: 4px;
+  font-size: 20px;
+}
+#new__colors:hover, #easy__mode:hover, #hard__mode:hover {
+  background: rgb(70, 100, 255);
+  color: #fff;
+  font-size: 20px;
+  transition: 1s all ease;
+}
+.selected {
+  background: rgb(70, 100, 255);
+  color: #fff;
+}
